@@ -27,7 +27,7 @@ app.use(cors(corsConfig));
 //     next();
 //   });
 
-const port = process.env.PORT || 8700;
+const port = process.env.PORT || 3000;
 
 const connect = () => {
     mongoose.set('strictQuery', true);
